@@ -1,1 +1,3 @@
-# React-With-TypeScript
+**Project Completion:** 20%  
+[█████-----]  
+
