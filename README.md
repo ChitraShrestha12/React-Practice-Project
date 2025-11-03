@@ -1,3 +1,3 @@
-**Project Completion:** 20%  
+**Project Completion:** 80%  
 [█████-----]  
 

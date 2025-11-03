@@ -1,0 +1,70 @@
+/* -------- GLOBAL RESET -------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* -------- BODY -------- */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  color: #fff;
+}
+
+/* -------- MAIN CONTAINER -------- */
+main {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* -------- BUTTON -------- */
+button {
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(59, 130, 246, 0.4);
+  transition: all 0.25s ease;
+}
+
+/* Button Hover */
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.6);
+}
+
+/* -------- PARAGRAPH -------- */
+main p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #f1f5f9;
+  opacity: 0.9;
+}
+
+/* -------- SIMPLE ANIMATION -------- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
